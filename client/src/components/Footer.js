@@ -4,7 +4,7 @@ class Footer extends Component {
   render() {
     return (
       <div>
-        <h1>Footer</h1>
+        <p>CynthiaR Tech Copyright © 2019.</p>
       </div>
     );
   }

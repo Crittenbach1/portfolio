@@ -1,10 +1,17 @@
 import React, { Component } from 'react';
+import Calculator from '../media/calculator.gif';
+import WeightTracker from '../media/weightTracker.gif';
+
 
 class Projects extends Component {
   render() {
     return (
-      <div>
-        <h1>Projects</h1>
+      <div class="projects">
+        <h1 class="header-text2">PROJECTS</h1>
+          <p>React-Native Calculator</p>
+          <img src={Calculator} />
+          <p>React-Rails WeightTracker</p>
+          <img src={WeightTracker} />
       </div>
     );
   }
